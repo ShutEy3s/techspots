@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles del Producto - TechSpot</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="index.html">TechSpot</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="catalogo.html">Catálogo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="carrito.html">Carrito</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <h2>Detalles del Producto</h2>
+        <div class="row">
+            <!-- NoteBook Gamer -->
+            <div class="col-md-6">
+                <img src="images/note.jpg" class="img-fluid" alt="NoteBook Gamer">
+            </div>
+            <div class="col-md-6">
+                <h3>NoteBook Gamer</h3>
+                <p>$999.99</p>
+                <p>Ideal para gamers, última tecnología y mayor potencia.</p>
+                <button class="btn btn-primary" onclick="addToCart()">Añadir al Carrito</button>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <!-- Smartphone de Alta Gama -->
+            <div class="col-md-6">
+                <img src="images/celu.jpg" class="img-fluid" alt="Smartphone de Alta Gama">
+            </div>
+            <div class="col-md-6">
+                <h3>Smartphone de Alta Gama</h3>
+                <p>$699.99</p>
+                <p>Teléfono de última gama, recién salido y con lo último en tecnología.</p>
+                <button class="btn btn-primary" onclick="addToCart()">Añadir al Carrito</button>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <!-- Televisor 4K UHD -->
+            <div class="col-md-6">
+                <img src="images/tele.jpg" class="img-fluid" alt="Televisor 4K UHD">
+            </div>
+            <div class="col-md-6">
+                <h3>Televisor 4K UHD</h3>
+                <p>$799.99</p>
+                <p>Colores vivos, pantalla ultra plana y una inmersión alucinante.</p>
+                <button class="btn btn-primary" onclick="addToCart()">Añadir al Carrito</button>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <!-- Auriculares Inalámbricos -->
+            <div class="col-md-6">
+                <img src="images/audif.jpg" class="img-fluid" alt="Auriculares Inalámbricos">
+            </div>
+            <div class="col-md-6">
+                <h3>Auriculares Inalámbricos</h3>
+                <p>$199.99</p>
+                <p>Vive el sonido como nunca, con los nuevos audífonos de última generación.</p>
+                <button class="btn btn-primary" onclick="addToCart()">Añadir al Carrito</button>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <!-- Tablet con Pantalla HD -->
+            <div class="col-md-6">
+                <img src="images/tablet.jpg" class="img-fluid" alt="Tablet con Pantalla HD">
+            </div>
+            <div class="col-md-6">
+                <h3>Tablet con Pantalla HD</h3>
+                <p>$399.99</p>
+                <p>Ideal para estudiantes y gente que busca una inmersión diferente a lo cotidiano.</p>
+                <button class="btn btn-primary" onclick="addToCart()">Añadir al Carrito</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        function addToCart() {
+            // Implementar lógica para agregar el producto al carrito
+            alert('El producto ha sido añadido al carrito.');
+        }
+    </script>
+</body>
+</html>
